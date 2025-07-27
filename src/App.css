@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  padding: 16px;
+}
+
+.layout {
+  display: flex;
+  gap: 16px;
+}
+
+.left,
+.right {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 16px;
+  height: 80vh;
+  overflow: auto;
+}
+
+.left label {
+  display: block;
+  margin: 8px 0;
+}
+
+.right .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
